@@ -1,0 +1,90 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("tre.png");
+  background-size: cover;
+}
+
+header{
+  
+ 
+  
+  color: rgb(0, 0, 0);
+  font-family: Arial black;
+  font-size: 22px;
+  text-align: center;
+  height: 90px;
+
+
+
+
+
+
+}
+main{
+  width: 75%;
+  margin: auto;
+  color: #ffffff;
+}
+#bilde{ 
+  width: 150px;
+  cursor: pointer;
+  position: relative; 
+  transition: transform 0.8s ease; 
+}
+  
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  transform: translateY(60px);
+  
+}
+
+p[class="1"]{
+  transform: translateY(60px);
+  text-align: center;
+ font-size: 25px;
+  color: Black;
+  background-color: white;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+p[class="2"]{
+  transform: translateY(40px);
+  text-align: center;
+  font-size: 25px;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+}
+
+p[class="3"]{
+  transform: translateY(100px);
+  color: rgb(255, 251, 2);
+  border-radius: 20px;
+  text-align: right;
+
+}
+p[class="4"]{
+  transform: translateY(90px);
+  color: rgb(247, 248, 248);
+  text-align: right;
+
+}
+p[class="5"]{
+  transform: translateY(-70px);
+  background-color: white;
+  border-radius: 20px;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+p[class="6"]{
+  transform: translateY(-255px);
+  border-radius: 20px;
+  font-size: 25px;
+  color: rgb(249, 249, 249);
+  text-align: center;
+}
